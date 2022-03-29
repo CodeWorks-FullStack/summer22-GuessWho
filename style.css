@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.object-fit {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.villain-card {
+  cursor: pointer;
+}
+
+.villain-card:hover {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 8px red;
+}
